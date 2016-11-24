@@ -1,0 +1,57 @@
+Classfile /C:/Users/Иван/Desktop/java core/testEpam/проверка absract and final/Outer$Inner.class
+  Last modified 24.11.2016; size 310 bytes
+  MD5 checksum a0bdba8deaf6af05b7a32c409bf724f8
+  Compiled from "Outer.java"
+public abstract class Outer$Inner
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER, ACC_ABSTRACT
+Constant pool:
+   #1 = Fieldref           #3.#15         // Outer$Inner.this$0:LOuter;
+   #2 = Methodref          #4.#16         // java/lang/Object."<init>":()V
+   #3 = Class              #18            // Outer$Inner
+   #4 = Class              #21            // java/lang/Object
+   #5 = Utf8               this$0
+   #6 = Utf8               LOuter;
+   #7 = Utf8               <init>
+   #8 = Utf8               (LOuter;)V
+   #9 = Utf8               Code
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               test
+  #12 = Utf8               ()V
+  #13 = Utf8               SourceFile
+  #14 = Utf8               Outer.java
+  #15 = NameAndType        #5:#6          // this$0:LOuter;
+  #16 = NameAndType        #7:#12         // "<init>":()V
+  #17 = Class              #22            // Outer
+  #18 = Utf8               Outer$Inner
+  #19 = Utf8               Inner
+  #20 = Utf8               InnerClasses
+  #21 = Utf8               java/lang/Object
+  #22 = Utf8               Outer
+{
+  final Outer this$0;
+    descriptor: LOuter;
+    flags: ACC_FINAL, ACC_SYNTHETIC
+
+  public Outer$Inner(Outer);
+    descriptor: (LOuter;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #1                  // Field this$0:LOuter;
+         5: aload_0
+         6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+         9: return
+      LineNumberTable:
+        line 2: 0
+
+  abstract void test();
+    descriptor: ()V
+    flags: ACC_ABSTRACT
+}
+SourceFile: "Outer.java"
+InnerClasses:
+     public abstract #19= #3 of #17; //Inner=class Outer$Inner of class Outer

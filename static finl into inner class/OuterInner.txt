@@ -1,0 +1,56 @@
+Classfile /C:/Users/Иван/Desktop/java core/testEpam/static finl into inner class/Outer$Inner.class
+  Last modified 24.11.2016; size 340 bytes
+  MD5 checksum 3e953cb2c5242dc7456b827540cc1a76
+  Compiled from "Outer.java"
+class Outer$Inner
+  minor version: 0
+  major version: 52
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Fieldref           #3.#17         // Outer$Inner.this$0:LOuter;
+   #2 = Methodref          #4.#18         // java/lang/Object."<init>":()V
+   #3 = Class              #20            // Outer$Inner
+   #4 = Class              #23            // java/lang/Object
+   #5 = Utf8               i
+   #6 = Utf8               I
+   #7 = Utf8               ConstantValue
+   #8 = Integer            7
+   #9 = Utf8               this$0
+  #10 = Utf8               LOuter;
+  #11 = Utf8               <init>
+  #12 = Utf8               (LOuter;)V
+  #13 = Utf8               Code
+  #14 = Utf8               LineNumberTable
+  #15 = Utf8               SourceFile
+  #16 = Utf8               Outer.java
+  #17 = NameAndType        #9:#10         // this$0:LOuter;
+  #18 = NameAndType        #11:#24        // "<init>":()V
+  #19 = Class              #25            // Outer
+  #20 = Utf8               Outer$Inner
+  #21 = Utf8               Inner
+  #22 = Utf8               InnerClasses
+  #23 = Utf8               java/lang/Object
+  #24 = Utf8               ()V
+  #25 = Utf8               Outer
+{
+  final Outer this$0;
+    descriptor: LOuter;
+    flags: ACC_FINAL, ACC_SYNTHETIC
+
+  Outer$Inner(Outer);
+    descriptor: (LOuter;)V
+    flags:
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #1                  // Field this$0:LOuter;
+         5: aload_0
+         6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+         9: return
+      LineNumberTable:
+        line 2: 0
+}
+SourceFile: "Outer.java"
+InnerClasses:
+     #21= #3 of #19; //Inner=class Outer$Inner of class Outer

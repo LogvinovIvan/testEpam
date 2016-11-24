@@ -1,0 +1,5 @@
+Inner static классы
+	UnsafeHolder в Biginteger
+
+Почему static final?
+	static final - Compile Time Constant
